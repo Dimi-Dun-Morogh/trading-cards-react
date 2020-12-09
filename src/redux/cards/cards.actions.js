@@ -16,3 +16,17 @@ export const toggleModal = (bool) => {
     payload: bool,
   };
 };
+
+export const setCurrentItem = (payload) => {
+  return {
+    type: cardsActionTypes.SET_CURRENT_ITEM,
+    payload,
+  };
+};
+
+export const getTheCheapest = (some) => {
+  console.log('action');
+  return {
+    type: cardsActionTypes.GET_CHEAPEST,
+  };
+};

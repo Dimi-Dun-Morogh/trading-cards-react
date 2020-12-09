@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { toggleModal } from '../../redux/cards/cards.actions';
-// import { CustomButton } from '../CustomButton/CustomButton.component';
 import './Modal.styles.scss';
 
 const Modal = ({ show, children, closeModal }) => {

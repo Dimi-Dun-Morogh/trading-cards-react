@@ -1,8 +1,10 @@
 import { cardsActionTypes } from './cards.action-types';
+import { getCheapest } from './cards.utils';
 
 const INITIAL_STATE = {
   cards: [],
   showModal: false,
+  currentItem: {},
 };
 
 const cardReducer = (state = INITIAL_STATE, action) => {
@@ -16,6 +18,17 @@ const cardReducer = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         showModal: action.payload,
+      };
+    case cardsActionTypes.SET_CURRENT_ITEM:
+      return {
+        ...state,
+        currentItem: action.payload,
+      };
+    case cardsActionTypes.GET_CHEAPEST:
+      console.log('reducer');
+      return {
+        ...state,
+        currentItem: getCheapest(state.cards),
       };
     default:
       return state;

@@ -34,25 +34,3 @@
   }
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  width: 288px;
-  font-size: 16px;
-
-  input {
-    height: 56px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    border-radius: 16px;
-    margin-bottom: 16px;
-    padding: 16px;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.02em;
-
-    &:focus {
-      outline: none;
-    }
-  }
-}
