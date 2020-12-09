@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/trading-cards-react/static/css/main.3b28b783.chunk.css",
+    "main.js": "/trading-cards-react/static/js/main.ff04f7d0.chunk.js",
+    "main.js.map": "/trading-cards-react/static/js/main.ff04f7d0.chunk.js.map",
+    "runtime-main.js": "/trading-cards-react/static/js/runtime-main.37027d4b.js",
+    "runtime-main.js.map": "/trading-cards-react/static/js/runtime-main.37027d4b.js.map",
+    "static/js/2.a284cefa.chunk.js": "/trading-cards-react/static/js/2.a284cefa.chunk.js",
+    "static/js/2.a284cefa.chunk.js.map": "/trading-cards-react/static/js/2.a284cefa.chunk.js.map",
+    "index.html": "/trading-cards-react/index.html",
+    "static/css/main.3b28b783.chunk.css.map": "/trading-cards-react/static/css/main.3b28b783.chunk.css.map",
+    "static/js/2.a284cefa.chunk.js.LICENSE.txt": "/trading-cards-react/static/js/2.a284cefa.chunk.js.LICENSE.txt",
+    "static/media/arrow-right.88c78008.svg": "/trading-cards-react/static/media/arrow-right.88c78008.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37027d4b.js",
+    "static/js/2.a284cefa.chunk.js",
+    "static/css/main.3b28b783.chunk.css",
+    "static/js/main.ff04f7d0.chunk.js"
+  ]
+}
