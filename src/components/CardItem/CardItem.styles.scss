@@ -35,3 +35,23 @@
     }
   }
 }
+
+@media (max-width: 377px) {
+  .card-item {
+    width: 310px;
+  }
+}
+@media (max-width: 330px) {
+  .card-item {
+    width: 280px;
+  }
+}
+
+@media (max-width: 290px) {
+  .card-item {
+    width: 270px;
+  }
+  .card-item .card-item-footer .card-item-price {
+    font-size: 45px;
+  }
+}

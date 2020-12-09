@@ -24,8 +24,7 @@ export const setCurrentItem = (payload) => {
   };
 };
 
-export const getTheCheapest = (some) => {
-  console.log('action');
+export const getTheCheapest = () => {
   return {
     type: cardsActionTypes.GET_CHEAPEST,
   };

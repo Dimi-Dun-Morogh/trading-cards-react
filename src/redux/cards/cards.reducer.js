@@ -25,7 +25,6 @@ const cardReducer = (state = INITIAL_STATE, action) => {
         currentItem: action.payload,
       };
     case cardsActionTypes.GET_CHEAPEST:
-      console.log('reducer');
       return {
         ...state,
         currentItem: getCheapest(state.cards),

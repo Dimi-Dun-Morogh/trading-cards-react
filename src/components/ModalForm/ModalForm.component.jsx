@@ -6,7 +6,7 @@ import './ModalForm.styles.scss';
 
 const styles = {
   button: {
-    width: '288px',
+    width: '100%',
     height: '56px',
     marginTop: '16px',
     fontSize: '16px',
@@ -69,29 +69,27 @@ export class ModalForm extends React.Component {
 
   render() {
     return (
-      <>
-        <form onSubmit={this.handleSubmit}>
-          <Input
-            type="text"
-            name="name"
-            placeholder="Name"
-            error={this.state.errors.name}
-            success={this.state.success.name}
-            onChange={(e) => this.handleInput(e)}
-            onBlur={(e) => this.validateOnblur(e)}
-          />
-          <Input
-            type="text"
-            name="number"
-            placeholder="Number"
-            error={this.state.errors.number}
-            success={this.state.success.number}
-            onChange={(e) => this.handleInput(e)}
-            onBlur={(e) => this.validateOnblur(e)}
-          />
-          <CustomButton inverted arrow={this.state.isValid} text="order" style={styles.button} />
-        </form>
-      </>
+      <form onSubmit={this.handleSubmit}>
+        <Input
+          type="text"
+          name="name"
+          placeholder="Name"
+          error={this.state.errors.name}
+          success={this.state.success.name}
+          onChange={(e) => this.handleInput(e)}
+          onBlur={(e) => this.validateOnblur(e)}
+        />
+        <Input
+          type="text"
+          name="number"
+          placeholder="Number"
+          error={this.state.errors.number}
+          success={this.state.success.number}
+          onChange={(e) => this.handleInput(e)}
+          onBlur={(e) => this.validateOnblur(e)}
+        />
+        <CustomButton inverted arrow={this.state.isValid} text="order" style={styles.button} />
+      </form>
     );
   }
 }
