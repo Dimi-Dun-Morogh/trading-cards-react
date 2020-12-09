@@ -1,0 +1,37 @@
+.card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 32px;
+  width: 352px;
+  height: 256px;
+  background: #ffffff;
+  color: #000000;
+  border-radius: 24px;
+  margin-top: 30px;
+  letter-spacing: -0.02em;
+
+  .card-item-category {
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+  .card-item-name {
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+  }
+  .card-item-footer {
+    font-size: 30px;
+    line-height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    .card-item-price {
+      margin-left: 4px;
+      font-size: 60px;
+      line-height: 47px;
+    }
+  }
+}

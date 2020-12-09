@@ -1,9 +1,5 @@
 {
-  "extends": [
-    "airbnb",
-    "plugin:prettier/recommended",
-    "prettier/react"
-  ],
+  "extends": ["airbnb", "plugin:prettier/recommended", "prettier/react"],
   "env": {
     "browser": true,
     "commonjs": true,
@@ -13,24 +9,25 @@
   },
   "parser": "babel-eslint",
   "rules": {
-    "consistent-return":  "off",
+    "consistent-return": "off",
     "jsx-a11y/href-no-hash": ["off"],
     "jsx-a11y/no-static-element-interactions": "off",
     "jsx-a11y/label-has-associated-control": "off",
     "jsx-a11y/click-events-have-key-events": "off",
     "react/jsx-props-no-spreading": "off",
-    "import/prefer-default-export" : "off",
-    "react/button-has-type":"off",
-    "react/no-unused-state":  "off",
+    "import/prefer-default-export": "off",
+    "react/button-has-type": "off",
+    "react/no-unused-state": "off",
     "react/destructuring-assignment": "off",
     "react/sort-comp": "off",
     "react/prop-types": "off",
-    "react/no-access-state-in-setstate":"off",
-    "no-unused-vars":"warn",
+    "react/no-access-state-in-setstate": "off",
+    "no-unused-vars": "warn",
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
-    "no-shadow":"off",
-    "no-return-assign":"off",
-    "no-param-reassign":"off",
+    "no-shadow": "off",
+    "no-return-assign": "off",
+    "no-param-reassign": "off",
+    "no-nested-ternary": "off",
     "max-len": [
       "warn",
       {

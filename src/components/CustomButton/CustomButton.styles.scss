@@ -1,0 +1,29 @@
+.custom-button {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  color: #4bcfa0;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #4bcfa0;
+    color: #fff;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.inverted {
+  background-color: #4bcfa0;
+  color: #fff;
+  &:hover {
+    background-color: #fff;
+    color: #4bcfa0;
+  }
+}
+.square {
+  width: 64px;
+  height: 56px;
+}

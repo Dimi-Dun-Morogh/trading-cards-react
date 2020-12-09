@@ -9,3 +9,10 @@ export const fetchCards = async (dispatch) => {
     payload: cardsFetched,
   });
 };
+
+export const toggleModal = (bool) => {
+  return {
+    type: cardsActionTypes.TOGGLE_MODAL,
+    payload: bool,
+  };
+};

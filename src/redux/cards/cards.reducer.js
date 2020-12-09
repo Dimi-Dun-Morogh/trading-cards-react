@@ -2,6 +2,7 @@ import { cardsActionTypes } from './cards.action-types';
 
 const INITIAL_STATE = {
   cards: [],
+  showModal: false,
 };
 
 const cardReducer = (state = INITIAL_STATE, action) => {
@@ -10,6 +11,11 @@ const cardReducer = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         cards: action.payload,
+      };
+    case cardsActionTypes.TOGGLE_MODAL:
+      return {
+        ...state,
+        showModal: action.payload,
       };
     default:
       return state;

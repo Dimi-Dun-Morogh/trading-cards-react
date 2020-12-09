@@ -1,0 +1,58 @@
+.modal-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 52px;
+
+  .modal-card-category {
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .modal-card-name {
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+  }
+
+  .modal-card-footer {
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-start;
+    .modal-card-item-price {
+      margin-left: 4px;
+      font-size: 60px;
+      line-height: 47px;
+    }
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  font-size: 16px;
+
+  input {
+    height: 56px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
